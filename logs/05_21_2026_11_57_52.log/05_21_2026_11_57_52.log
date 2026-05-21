@@ -1,0 +1,9 @@
+[ 2026-05-21 11:57:56,273 ] 20 root - INFO - Training pipeline started
+[ 2026-05-21 11:57:56,274 ] 24 root - INFO - Entered the data ingestion method
+[ 2026-05-21 11:57:56,380 ] 33 root - INFO - Dataset loaded successfully
+[ 2026-05-21 11:57:56,474 ] 47 root - INFO - Raw dataset saved in artifacts folder
+[ 2026-05-21 11:57:56,559 ] 67 root - INFO - Train and test split completed
+[ 2026-05-21 11:57:56,559 ] 32 root - INFO - Data ingestion completed
+[ 2026-05-21 11:57:56,693 ] 98 root - INFO - Train and test data loaded
+[ 2026-05-21 11:57:56,757 ] 155 root - INFO - Missing values handled
+[ 2026-05-21 11:57:56,771 ] 161 root - INFO - Duplicates removed

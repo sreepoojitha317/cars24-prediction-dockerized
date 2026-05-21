@@ -1,0 +1,25 @@
+[ 2026-05-21 12:00:17,638 ] 20 root - INFO - Training pipeline started
+[ 2026-05-21 12:00:17,638 ] 24 root - INFO - Entered the data ingestion method
+[ 2026-05-21 12:00:17,674 ] 33 root - INFO - Dataset loaded successfully
+[ 2026-05-21 12:00:17,733 ] 47 root - INFO - Raw dataset saved in artifacts folder
+[ 2026-05-21 12:00:17,797 ] 67 root - INFO - Train and test split completed
+[ 2026-05-21 12:00:17,797 ] 32 root - INFO - Data ingestion completed
+[ 2026-05-21 12:00:17,930 ] 98 root - INFO - Train and test data loaded
+[ 2026-05-21 12:00:17,965 ] 155 root - INFO - Missing values handled
+[ 2026-05-21 12:00:17,976 ] 161 root - INFO - Duplicates removed
+[ 2026-05-21 12:00:17,977 ] 35 root - INFO - Data transformation initiated
+[ 2026-05-21 12:00:17,978 ] 76 root - INFO - Column transformer created
+[ 2026-05-21 12:00:31,887 ] 220 root - INFO - Preprocessor pickle saved
+[ 2026-05-21 12:00:32,760 ] 53 root - INFO - Data transformation completed
+[ 2026-05-21 12:00:32,760 ] 58 root - INFO - Model training started
+[ 2026-05-21 12:00:32,760 ] 101 root - INFO - Training started for Linear Regression
+[ 2026-05-21 12:02:05,850 ] 121 root - INFO - Linear Regression completed with R2 Score: -32217.45723478377
+[ 2026-05-21 12:02:05,851 ] 101 root - INFO - Training started for Decision Tree
+[ 2026-05-21 12:02:21,277 ] 121 root - INFO - Decision Tree completed with R2 Score: 0.7862772847328277
+[ 2026-05-21 12:02:21,278 ] 101 root - INFO - Training started for Random Forest
+[ 2026-05-21 12:02:34,361 ] 121 root - INFO - Random Forest completed with R2 Score: 0.7934071972066024
+[ 2026-05-21 12:02:34,361 ] 101 root - INFO - Training started for XGBoost
+[ 2026-05-21 12:03:17,558 ] 121 root - INFO - XGBoost completed with R2 Score: 0.910773515701294
+[ 2026-05-21 12:23:44,585 ] 186 root - INFO - Best Tuned XGBoost R2 Score: 0.9116091132164001
+[ 2026-05-21 12:23:44,597 ] 197 root - INFO - Best model saved successfully
+[ 2026-05-21 12:23:44,639 ] 70 root - INFO - Model training completed with R2 Score: 0.9116091132164001
